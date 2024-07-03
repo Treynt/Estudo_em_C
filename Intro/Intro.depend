@@ -1,8 +1,12 @@
 # depslib dependency file v1.0
-1719953699 source:c:\cursos\códigos\c\intro\main.c
+1719966070 source:c:\cursos\códigos\c\intro\main.c
 	<stdio.h>
 
-1719966039 source:c:\cursos\códigos\c\intro\ponteiro.c
+1720038194 source:c:\cursos\códigos\c\intro\ponteiro.c
+	<stdio.h>
+	<stdlib.h>
+
+1720040347 source:c:\cursos\códigos\c\intro\ponteiro_de_ponteiro.c
 	<stdio.h>
 	<stdlib.h>
 
