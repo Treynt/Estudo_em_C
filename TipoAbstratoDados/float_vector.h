@@ -1,4 +1,5 @@
 typedef struct float_vector FloatVector;
+//A recomendação clássica é deixar aqui apenas o esqueleto da struct, setando o tipo e o apelido,  e passar sua estrutura no .c
 
 FloatVector *create(int capacity);
 void destroy(FloatVector **vec);

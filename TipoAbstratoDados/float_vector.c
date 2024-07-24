@@ -16,4 +16,15 @@ struct float_vector{
  */
  FloatVector *create(int capacity){
     FloatVector *vec = calloc(1, sizeof(FloatVector));
+    vec->size = 0;//seta incialmente para 0, por estar vazio
+    vec->capacity = capacity;
+    vec->data = (float*) calloc(capacity, sizeof(float));
+    return vec;
+ }
+
+ void destroy(FloatVector **vec_ref) {
+    FloatVector *vec = *vec_ref;
+    free(vec->data);
+    free(vec):
+    *vec_ref = NULL;
  }
